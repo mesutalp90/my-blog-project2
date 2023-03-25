@@ -1,0 +1,109 @@
+/*********************HEADER*********************/
+.site-header{
+  overflow: hidden;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 1px;
+}
+/*********************NAVBAR*********************/
+.navbar {
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.navbar .menu {
+  display: flex;
+  position: abs;
+}
+.navbar .menu li {
+  flex: 1;
+  display: flex;
+  text-align: center;
+  transition: background-color 0.5s ease;
+}
+.navbar .menu a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+  color: white;
+  background-color: black;
+}
+/*********************TAG SELECTORS*********************/
+img{
+  width: 25%;
+}
+.video{
+  width: 25%;
+  margin: auto 0px;
+  display: block;
+  text-align: center;
+}
+/*********************ID SELECTORS*********************/
+#aboutme{
+  text-align: center;
+}
+/*********************CLASS SELECTORS*********************/
+.profil {
+  height: 200px;
+}
+.small-text {
+  font-size: 12px;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-github {
+  background:black;
+  color: white;
+}
+.fa:hover {
+  opacity: 0.5;
+}
+.metin{
+  position: absolute;
+  top: 300px;
+  right: 100px;
+  color: #d5cea1;
+}
+.gallery{
+  margin: auto;;
+}
+.i1,.i2,.i3,.i4{
+  width: 24%;
+  margin: auto;
+} 
+.intro{
+  text-align: center;
+  font-family: "sacramento", cursive;
+  color: rgb(0, 0, 0);
+  font-size: 2rem
+}
+.giphy1{
+  width: 45%;
+  margin: auto
+}
+.title{
+color: black;
+}
